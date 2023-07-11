@@ -13,11 +13,26 @@ run2.class.csv
 Code - all code is for R
 
 Home range.R
+  Code calculates home range and compares 95% KDE for males and females and 50% KDE for males and females
   Code used to calculate home range requires file CleanGPSdata
+  Code used to compare home range size between males and females uses data Catdata.csv
 
+Factors that affect habitat selection.R
+  Requires data from Simple_landuse file and Cat_data_NZTM.csv for habitat selection
+  Calulates habitat selection for all cats and for each individual cat
+  Following calculating habitat selection the coeffiecients are used from the individual models with Catdata.csv, run1.land.csv and run2.class.csv to examine factors that affect habitat selection
 
+All cats model validation.R
+  Provides code for model validation of habitat selection models for all cats
 
-  
+Individual cat model validation.R
+  Provides code for model validation of habitat selection models for each of the individual cats
+
+Tortuosity veg vs pasture.R
+  Provides code in caluculating tortuosities for paths in pasture and woody vegetation and code to determine if there was a difference in these
+
+Step lengths veg vs pasture.R
+  Provides code to determine if there was a difference between pasture and woody vegetation
   
 
 
